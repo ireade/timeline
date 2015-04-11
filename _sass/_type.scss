@@ -1,0 +1,40 @@
+/* ------------------------------
+			Type
+------------------------------ */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,400,700);
+
+
+$education: rgb(231, 76, 60);
+$life: rgb(1, 179, 221);
+$project: rgb(255, 219, 58);
+
+html {
+	font-size: 62.5%;
+	font-family: 'Lato';
+	font-weight: 300;
+
+	color: rgb(80, 80, 80);
+}
+
+body {
+	font-size: 1.6rem;
+	line-height: 1.4;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+h3 {
+	font-style: italic;
+}
+
+a {
+	color: inherit;
+}

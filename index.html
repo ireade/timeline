@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  <header>
+    <h1>Ire Aderinokun</h1>
+    <p>Welcome! This document serves as a CV/Resumé for my career as a Website Designer and Front-end Developer. The format for the document is a timeline of my life, highlighting some of my most important events. There are three categories - life, education, and projects - signified by the three icons. If you hover over the icons (or click if you're on a mobile device), you will be able to read more information about the event. Enjoy!</p><br>
+
+    <p><a href="http://ireaderinokun.com">Portfolio</a> | <a href="http://bitsofco.de">Blog</a> |<a href="https://github.com/ireade">Github</a> | <a href="mailto:ire@ireaderinokun.com">Email</a></p>
+  </header>
+
+  <main>
+
+    {% for timeline in site.data.timeline.timeline %}
+    <section class="timeline-year" id="year-{{timeline.year}}">
+
+      <h2 class="year">{{timeline.year}}</h2>
+      
+      <div class="timeline-bar">
+        
+        {% for event in timeline.events %}
+        <div class="timeline-item">
+
+          <div class="icon {{ event.category }}">
+
+            {% if event.category == 'life' %}
+            <i class="fa fa-user"></i>
+            {% elsif event.category == 'education' %}
+            <i class="fa fa-graduation-cap"></i>
+            {% elsif event.category == 'project' %}
+            <i class="fa fa-code"></i>
+            {% endif %}
+          </div>
+          
+          <h3 class="closed-title">{{ event.title }}</h3>
+
+          <div class="more-info {{ event.category }}">
+            <hgroup>
+              <h2>{{ event.title }}</h2>
+              <h3>{% if event.date != '' %} {{ event.date }} |{% endif %} {{event.category | capitalize}}</h3>
+
+              <div class="cancel">X</div>
+            </hgroup>
+            {% if event.image != '' %}
+            <img src="{{event.image}}" alt="{{event.title}}">
+            {% endif %}
+            <p>{{ event.description }}</p>
+          </div>
+
+        </div>
+        {% endfor %}
+
+      </div>
+
+    </section>
+    {% endfor %}
+
+  </main>
+  
+</div>
+
+
