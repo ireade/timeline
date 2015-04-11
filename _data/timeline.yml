@@ -108,13 +108,6 @@ timeline:
 			category: 'education',
 			image: '',
 			description: 'I graduated from the International Baccalaureate with - HL Psychology (6), HL Biology (6), HL English Literature (5), SL Economics (7), SL French (5), SL Math (5). (Scores out of 7).'
-		},
-		{
-			title: 'I Can Dance?***',
-			date: '',
-			category: 'life',
-			image: '',
-			description: 'A'
 		}
 	]
 }
@@ -158,6 +151,13 @@ timeline:
 			category: 'education',
 			image: '',
 			description: 'I graduated from my undergraduate degree with a 2:1 from the University of Bristol!'
+		},
+		{
+			title: 'I Like Dance',
+			date: '',
+			category: 'life',
+			image: 'assets/img/dancer.jpg',
+			description: 'I always enjoyed dance, and was able to rediscover it at uni. I did Belly Dancing and Ballet (and still do).'
 		}
 	]
 }
