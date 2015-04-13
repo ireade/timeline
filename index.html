@@ -1,64 +1,37 @@
 ---
-layout: default
 ---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width initial-scale=1" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<div class="container">
+      <title>{{ site.title }}</title>
+      <meta name="description" content="{{ site.description }}">
 
-  <header>
-    <h1>Ire Aderinokun</h1>
-    <p>Welcome! This document serves as a CV/Resumé for my career as a Website Designer and Front-end Developer. The format for the document is a timeline of my life, highlighting some of my most important events. There are three categories - life, education, and projects - signified by the three icons. If you hover over the icons (or click if you're on a mobile device), you will be able to read more information about the event. Enjoy!</p><br>
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/animate.css">
+      <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
 
-    <p><a href="http://ireaderinokun.com">Portfolio</a> | <a href="http://bitsofco.de">Blog</a> |<a href="https://github.com/ireade">Github</a> | <a href="mailto:ire@ireaderinokun.com">Email</a></p>
-  </header>
+  <div class="container">
 
-  <main>
+    <header>
+      <h1>Ire Aderinokun</h1>
+      <p>Welcome! This document serves as a CV/Resumé for my career as a Website Designer and Front-end Developer. The format for the document is a timeline of my life, highlighting some of my most important events. There are three categories - life, education, and projects - signified by the three icons. If you hover over the icons (or click if you're on a mobile device), you will be able to read more information about the event. Enjoy!</p><br>
 
-    {% for timeline in site.data.timeline.timeline %}
-    <section class="timeline-year" id="year-{{timeline.year}}">
+      <p><a href="http://ireaderinokun.com" target="_blank">Portfolio</a> | <a href="http://bitsofco.de" arget="_blank">Blog</a> |<a href="https://github.com/ireade" arget="_blank">Github</a> | <a href="mailto:ire@ireaderinokun.com" arget="_blank">Email</a></p>
+    </header>
 
-      <h2 class="year">{{timeline.year}}</h2>
-      
-      <div class="timeline-bar">
-        
-        {% for event in timeline.events %}
-        <div class="timeline-item">
+    <main>
+      {% include timeline.html %}
+    </main>
+    
+  </div>
 
-          <div class="icon {{ event.category }}">
-
-            {% if event.category == 'life' %}
-            <i class="fa fa-user"></i>
-            {% elsif event.category == 'education' %}
-            <i class="fa fa-graduation-cap"></i>
-            {% elsif event.category == 'project' %}
-            <i class="fa fa-code"></i>
-            {% endif %}
-          </div>
-          
-          <h3 class="closed-title">{{ event.title }}</h3>
-
-          <div class="more-info {{ event.category }}">
-            <hgroup>
-              <h2>{{ event.title }}</h2>
-              <h3>{% if event.date != '' %} {{ event.date }} |{% endif %} {{event.category | capitalize}}</h3>
-
-              <div class="cancel">X</div>
-            </hgroup>
-            {% if event.image != '' %}
-            <img src="{{event.image}}" alt="{{event.title}}">
-            {% endif %}
-            <p>{{ event.description }}</p>
-          </div>
-
-        </div>
-        {% endfor %}
-
-      </div>
-
-    </section>
-    {% endfor %}
-
-  </main>
-  
-</div>
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

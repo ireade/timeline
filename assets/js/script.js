@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 	$('.more-info').hover(function() {
 		$(this).toggleClass('more-info-show');
-		$(this).siblings('.more-info').toggleClass('activated');
+		$(this).toggleClass('activated');
 	});
 
 	$('.cancel').on('click', function() {

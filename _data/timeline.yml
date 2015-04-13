@@ -50,7 +50,7 @@ timeline:
 			date: '',
 			category: 'life',
 			image: '',
-			description: 'My first of many "what am I going to do with my life?" crises. I knew I liked making websites, but this wasnt a viable career option at the time (at least in Nigeria) and so was I advised against it by my parents. So, I fell out of it for a while...'
+			description: 'My first of many "what am I going to do with my life?" crises. I knew I liked making websites, but this was not a viable career option at the time (at least in Nigeria) and so I was advised against it by my parents. I fell out of it for a while and started doing other things..'
 		}
 	]
 }
@@ -62,14 +62,14 @@ timeline:
 			date: 'March',
 			category: 'life',
 			image: 'assets/img/2005-cameroun.jpg',
-			description: 'As part of the Duke of Edinburgh Award Scheme, myself and some of my classmates climbed Mount Cameroun, which is the second tallest mountain in Africa! It was incredibly scary, but it helped me realize that I could do anything if I really wanted to.'
+			description: 'As part of the Duke of Edinburgh Award Scheme, myself and some classmates climbed Mount Cameroun, which is the second tallest mountain in Africa. It was incredibly scary, but it helped me realize that I could accomplish anything if I really wanted to.'
 		},
 		{
 			title: 'IGCSE Program',
 			date: 'July',
 			category: 'education',
 			image: '',
-			description: 'I graduated from the IGCSE (International General Certificate of Sedcondary Education) Program with 4 As, 3 Bs, and 1 C'
+			description: 'I graduated from the IGCSE (International General Certificate of Sedcondary Education) Program with 4 As, 3 Bs, and 1 C. I attended British International School, Lagos, Nigeria.'
 		},
 		{
 			title: 'Moved to the UK',
@@ -95,7 +95,7 @@ timeline:
 			date: '',
 			category: 'life',
 			image: 'assets/img/2008-doe.jpg',
-			description: 'Another hiking trip for the Duke of Edinburgh Award Scheme. This time, it was a three-day hike around Wales. It was also the first time I experience snow!'
+			description: 'Another hiking trip for the Duke of Edinburgh Award Scheme. This time, it was a three-day hike around Wales. It was also the first time I experience snow, which was not so great considering I was sleeping in a tent outside!'
 		}
 	]
 }
@@ -107,7 +107,7 @@ timeline:
 			date: '',
 			category: 'education',
 			image: '',
-			description: 'I graduated from the International Baccalaureate with - HL Psychology (6), HL Biology (6), HL English Literature (5), SL Economics (7), SL French (5), SL Math (5). (Scores out of 7).'
+			description: 'I graduated from the International Baccalaureate with - HL Psychology (6), HL Biology (6), HL English Literature (5), SL Economics (7), SL French (5), SL Math (5). (Scores out of 7). I attended an American School in Surrey, England.'
 		}
 	]
 }
@@ -115,11 +115,11 @@ timeline:
 	year: 2010,
 	events: [
 		{
-			title: 'Sades List - Another First Website',
+			title: "Sade's List - Another First Website",
 			date: '',
 			category: 'project',
 			image: 'assets/img/sades-list-1.png',
-			description: 'This was my first website in a long time. I was still learning how to create good design.'
+			description: 'This was my first website in a long time. I was still learning how to create good design and my code was pretty terrible! But I was rediscovering my interest.'
 		}
 	]
 }
@@ -157,7 +157,7 @@ timeline:
 			date: '',
 			category: 'life',
 			image: 'assets/img/dancer.jpg',
-			description: 'I always enjoyed dance, and was able to rediscover it at uni. I did Belly Dancing and Ballet (and still do).'
+			description: 'I have always enjoyed dance, and was able to rediscover it at uni. I did Belly Dancing and Ballet (and still do).'
 		}
 	]
 }
@@ -179,7 +179,7 @@ timeline:
 			description: 'I joined <a href="http://codecademy.com" target="_blank">Codecademy</a> and started doing their lessons whenever I had free time (which was not a lot, considering my degree)!'
 		},
 		{
-			title: 'Sades List Redesign - Better, not Great',
+			title: "Sade's List Redesign - Better, not Great",
 			date: '',
 			category: 'project',
 			image: 'assets/img/sades-list-2.png',
@@ -230,28 +230,28 @@ timeline:
 			date: 'July',
 			category: 'project',
 			image: 'http://ireaderinokun.com/work/supper-club/1.png',
-			description: 'As part of the Steer Web Design course, I designed this website and logo. <a href="http://ireaderinokun.com/work/supper-club/">Read more about this project</a>.'
+			description: 'As part of the Steer Web Design course, I designed this website and logo. <a href="http://ireaderinokun.com/work/supper-club/" target="_blank">Read more about this project</a>.'
 		},
 		{
 			title: 'Fusion Kelvar Lab',
 			date: 'August',
 			category: 'project',
 			image: 'http://ireaderinokun.com/work/fusion-kelvar-lab/1.png',
-			description: 'This is one of the first freelance projects I did. It was a simple one-page website, which I built using Jekyll. <a href="http://ireaderinokun.com/work/fusion-kelvar-lab/">Read more about this project</a>.'
+			description: 'This is one of the first freelance projects I did. It was a simple one-page website, which I built using Jekyll. <a href="http://ireaderinokun.com/work/fusion-kelvar-lab/" target="_blank">Read more about this project</a>.'
 		},
 		{
 			title: 'LE Retail',
 			date: 'September',
 			category: 'project',
 			image: 'http://ireaderinokun.com/work/le-retail/1.png',
-			description: 'This is one of my favourite projects. It started as a challenge, but now I love the design those restrictions enabled me to produce. <a href="http://ireaderinokun.com/work/le-retail/">Read more about this project</a>.'
+			description: 'This is one of my favourite projects. It started as a challenge, but now I love the design those restrictions enabled me to produce. <a href="http://ireaderinokun.com/work/le-retail/" target="_blank">Read more about this project</a>.'
 		},
 		{
 			title: 'Studio of Modé',
 			date: 'November',
 			category: 'project',
 			image: 'http://ireaderinokun.com/work/studio-of-mode/macbook.png',
-			description: 'This is one of the bigger and more long-term projects I have worked on. It was a challenge both with respect to the design as well as the development aspects. The site was divided into two parts - an online portfolio, which I built on Wordpress, and an online shop, which I built on Shopify. <a href="http://ireaderinokun.com/work/studio-of-mode/">Read more about this project</a>.'
+			description: 'This is one of the bigger and more long-term projects I have worked on. It was a challenge both with respect to the design as well as the development aspects. The site was divided into two parts - an online portfolio, which I built on Wordpress, and an online shop, which I built on Shopify. <a href="http://ireaderinokun.com/work/studio-of-mode/" target="_blank">Read more about this project</a>.'
 		},
 	]
 }
@@ -263,7 +263,7 @@ timeline:
 			date: '',
 			category: 'project',
 			image: 'http://ireaderinokun.com/work/bode-agusto/1.png',
-			description: '<a href="http://ireaderinokun.com/work/bode-agusto/">Read more about this project</a>.'
+			description: '<a href="http://ireaderinokun.com/work/bode-agusto/" target="_blank">Read more about this project</a>.'
 		},
 		{
 			title: 'Lynda.com',
@@ -277,14 +277,14 @@ timeline:
 			date: 'March',
 			category: 'project',
 			image: '',
-			description: 'I started writing a web development blog. My aim was to develop a more well-rounded education on web development, so each week I research little bits of code and try to explain them to my readers. I have had a really positive response, and one of my most recent articles, <a href="http://bitsofco.de/2015/css-font-sizing/">CSS Font Sizes Explained</a>, was very widely shared. <a href="http://bitsofco.de/">Visit the blog</a>.'
+			description: 'I started writing a web development blog. My aim was to develop a more well-rounded education on web development, so each week I research little bits of code and try to explain them to my readers. I have had a really positive response, and one of my most recent articles, <a href="http://bitsofco.de/2015/css-font-sizing/" target="_blank">CSS Font Sizes Explained</a>, was very widely shared. <a href="http://bitsofco.de/">Visit the blog</a>.'
 		},
 		{
 			title: 'Payback',
 			date: '',
 			category: 'project',
 			image: '',
-			description: 'In order to improve my development skills, I have been doing more projects. One recent project is Payback, a web app based on the Instagram API. It allows users to find the people they follow on instagram that do not follow them back. <a href="https://github.com/ireade/payback">View on Github</a>.'
+			description: 'In order to improve my development skills, I have been doing more projects. One recent project is Payback, a web app based on the Instagram API. It allows users to find the people they follow on instagram that do not follow them back. <a href="https://github.com/ireade/payback" target="_blank">View on Github</a>.'
 		},
 		{
 			title: 'Code School',
@@ -298,7 +298,7 @@ timeline:
 			date: '',
 			category: 'project',
 			image: 'https://camo.githubusercontent.com/6bbc2f0e5b7c494ef60e3b57b98618281fde3a3f/687474703a2f2f7777772e69726561646572696e6f6b756e2e636f6d2f6f70656e7772697465722d696d616765732f312e706e67',
-			description: 'I decided to learn more about Ghost by creating a theme. The theme I created, "OpenWriter", is availabe for free on my <a href="https://github.com/ireade/openwriter">github</a>'
+			description: 'I decided to learn more about Ghost by creating a theme. The theme I created, "OpenWriter", is availabe for free on my <a href="https://github.com/ireade/openwriter" target="_blank">github</a>'
 		}
 	]
 }
