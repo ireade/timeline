@@ -295,10 +295,17 @@ timeline:
 		},
 		{
 			title: 'OpenWriter Ghost Theme',
-			date: '',
+			date: 'April',
 			category: 'project',
 			image: 'https://camo.githubusercontent.com/6bbc2f0e5b7c494ef60e3b57b98618281fde3a3f/687474703a2f2f7777772e69726561646572696e6f6b756e2e636f6d2f6f70656e7772697465722d696d616765732f312e706e67',
 			description: 'I decided to learn more about Ghost by creating a theme. The theme I created, "OpenWriter", is availabe for free on my <a href="https://github.com/ireade/openwriter" target="_blank">github</a>'
+		},
+		{
+			title: 'FormHack.io',
+			date: 'April',
+			category: 'project',
+			image: '',
+			description: '<a href="http://formhack.io/" target="_blank">FormHack</a> is a hackable SASS-based form reset. Although there are standard css resets for forms out there, I wanted to created one that I could easily customize for any site, without having to worry about cross-browser compatibility and differences.'
 		}
 	]
 }
